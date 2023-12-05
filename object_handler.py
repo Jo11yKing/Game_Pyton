@@ -37,7 +37,7 @@ class ObjectHandler:
             add_sprite(AnimatedSprites(game, path=self.anim_sprite_path + 'servitor/0.png', scale=0.8, pos=(11.5, 6.5)))
             add_sprite(AnimatedSprites(game, path=self.anim_sprite_path + 'servitor/0.png', scale=0.8, pos=(4.5, 17.5)))
             add_sprite(AnimatedSprites(game, path=self.anim_sprite_path + 'servitor/0.png', scale=0.8,pos=(11.5, 27.5)))
-            self.enemies = 2  # npc count
+            self.enemies = 15  # npc count
             self.npc_types = [ChaosRobotNPC, ChaosMarineNPC]
             self.weights = [10, 90]
             self.restricted_area = {(i, j) for i in range(10) for j in range(10)}
@@ -65,7 +65,7 @@ class ObjectHandler:
             add_sprite(AnimatedSprites(game, path=self.anim_sprite_path + 'servitor/0.png', scale=0.8, pos=(3.5, 6.5)))
             add_sprite(AnimatedSprites(game, path=self.anim_sprite_path + 'servitor/0.png', scale=0.8, pos=(1.5, 21.5)))
             add_sprite(AnimatedSprites(game, path=self.anim_sprite_path + 'servitor/0.png',scale=0.8, pos=(11.5, 27.5)))
-            self.enemies = 10 # npc count
+            self.enemies = 20 # npc count
             self.npc_types = [OrkNPC, OrkMekkaNPC]
             self.weights = [90, 10]
             self.restricted_area = {(i, j) for i in range(10) for j in range(10)}
